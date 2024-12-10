@@ -8,6 +8,9 @@ const DayNightToggle = () => {
 
     return (
         <div style={{
+            display: 'flex',
+            flexDirection: 'column',
+            alignItems: 'flex-end',
             backgroundColor: isNightMode? 'black' : 'white',
             color: isNightMode? 'white' : 'black',
             padding: '20px',
@@ -23,6 +26,4 @@ const DayNightToggle = () => {
       );
 }
  
-export default DayNightToggle
-
-;
+export default DayNightToggle;
